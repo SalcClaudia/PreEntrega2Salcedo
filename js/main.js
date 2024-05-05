@@ -35,7 +35,7 @@ class cookieList {
 };
 
 function showMenu() {
-    const cookies = confirm("A continuación podrás visualizar nuestro menú a través de su consola presionando el botón de ok. \n\n Si está listo para hacer su pedido presione cancelar");
+    const cookies = confirm("A continuación podrás visualizar nuestro menú a través de su consola presionando el botón de OK. \n\n Si está listo para hacer su pedido presione CANCELAR");
 
     if (cookies == true) {
 
@@ -96,7 +96,7 @@ function deleteCookies() {
 
 let menu;
 
-alert("¡Bienvenido a Monsters & Cookies! \n\n¿Estás listo para adentrarte en un mundo de deliciosos sabores monstruosos? \n\nDesde las clásicas y reconfortantes galletas de chocolate hasta las audaces y sorprendentes creaciones inspiradas en nuestros monstruos favoritos, ¡nuestro menú te llevará en un viaje inolvidable! \n\n Para una mejor experiencia, abre tu consola");
+alert("¡Bienvenido a Monsters & Cookies! \n\n¿Estás listo para adentrarte en un mundo de deliciosos sabores monstruosos? \n\nDesde las clásicas y reconfortantes galletas de chocolate hasta las audaces y sorprendentes creaciones inspiradas en nuestros monstruos favoritos, ¡nuestro menú te llevará en un viaje inolvidable! \n\n PARA UNA MEJOR EXPERIENCIA ABRE TU CONSOLA");
 
 do {
     menu = parseInt(prompt("Deja que los mounstros invadan tu paladar. A continuación elija una de las 3 opciones \n\ 1. Menú \n\ 2. Hacer pedido  \n\ 3. Crea tu Monster Cookie personalizada \n\ 4. Visualizar mi pedido \n\ 5. Eliminar mi ultimo pedido \n\ 6. Salir del menu"));
